@@ -1,114 +1,73 @@
-/*
+/* LinkedIn-like Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f3f2ef;
+}
+
+.navbar {
+    background-color: #0073b1; /* LinkedIn Blue */
+}
+
+.navbar-brand, .nav-link {
+    color: white !important;
+}
+
+.header {
+    background-color: white;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.banner {
+    position: relative;
+    height: 200px; /* Adjust height as needed */
+    overflow: hidden;
+}
+
+.banner-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 .profile-img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    object-fit: cover;
+    border: 4px solid #0073b1;
+    margin-top: -75px; /* Overlap the header */
 }
-header {
-    background: linear-gradient(to right, #0066cc, #0099ff);
-    padding: 5rem 0;
-}
+
 .section-title {
-    font-size: 2rem;
-    margin-bottom: 1rem;
+    color: #0073b1;
+    font-weight: bold;
+    margin-bottom: 20px;
 }
-.section-icon {
-    margin-right: 10px;
+
+.section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 15px;
+    border: 1px solid #dcdcdc;
 }
-.skills-list {
-    list-style-type: none;
-    padding: 0;
-}
-.skills-list li {
-    background-color: #e0e0e0;
-    border-radius: 5px;
-    margin: 5px 0;
-    padding: 10px;
-}
-.project-img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-}
+
 .back-to-top {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #007bff;
+    background-color: #0073b1;
     color: white;
     border-radius: 50%;
     padding: 10px;
-    text-align: center;
-    font-size: 1.5rem;
-    text-decoration: none;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    display: none;
 }
-.back-to-top:hover {
-    background-color: #0056b3;
-}
-*/
 
-/* LinkedIn-like Styling */
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f3f2ef;
-        }
-        .navbar {
-            background-color: #0073b1; /* LinkedIn Blue */
-        }
-        .navbar-brand, .nav-link {
-            color: white !important;
-        }
-        .header {
-            background-color: white;
-            border-bottom: 1px solid #dcdcdc;
-            padding: 20px;
-            text-align: center;
-        }
-        .profile-img {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            border: 4px solid #0073b1;
-        }
-        .section-title {
-            color: #0073b1;
-            font-weight: bold;
-            margin-bottom: 20px;
-        }
-        .section {
-            background-color: white;
-            padding: 20px;
-            margin-bottom: 15px;
-            border: 1px solid #dcdcdc;
-        }
-        .back-to-top {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            background-color: #0073b1;
-            color: white;
-            border-radius: 50%;
-            padding: 10px;
-            display: none;
-        }
-        .skills-list {
-            list-style-type: none;
-            padding: 0;
-        }
-        .skills-list li {
-            background-color: #e1ecf4;
-            color: #0073b1;
-            padding: 5px 10px;
-            border-radius: 5px;
-            display: inline-block;
-            margin: 5px;
-        }
-        .card-body {
-            padding: 10px;
-        }
-        .card-title {
-            color: #0073b1;
-            font-weight: bold;
-        }
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills-list li {
+    background-color: #e1ecf4;
+    color: #0073b1;
+    padding: 5px 10px;
+    border-radius: 
