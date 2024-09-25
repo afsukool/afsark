@@ -15,26 +15,28 @@ body {
 .header {
     background-color: white;
     border-bottom: 1px solid #dcdcdc;
+    position: relative;
+    overflow: hidden; /* Prevents overflow issues */
 }
 
 .banner {
     position: relative;
-    height: 200px; /* Adjust height as needed */
     overflow: hidden;
-}
+    height: 400px; /* Adjust this height as needed */
+  }
 
 .banner-img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: cover; /* Ensures the image covers the entire banner */
 }
 
 .profile-img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    border: 4px solid #0073b1;
-    margin-top: -75px; /* Overlap the header */
+    width: 150px; /* Adjust as needed */
+    height: 150px; /* Adjust as needed */
+    border-radius: 50%; /* Makes the profile picture circular */
+    object-fit: cover; /* Ensures the image fits nicely */
+    margin-bottom: 1rem; /* Adds space below the image */
 }
 
 .section-title {
@@ -72,29 +74,6 @@ body {
     padding: 5px 10px;
     border-radius: 
         margin-bottom: 5px;
-}
-.header {
-    position: relative;
-    overflow: hidden; /* Prevents overflow issues */
-}
-
-.banner {
-    height: 400px; /* Adjust this height as needed */
-    overflow: hidden;
-}
-
-.banner-img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Ensures the image covers the entire banner */
-}
-
-.profile-img {
-    width: 150px; /* Adjust as needed */
-    height: 150px; /* Adjust as needed */
-    border-radius: 50%; /* Makes the profile picture circular */
-    object-fit: cover; /* Ensures the image fits nicely */
-    margin-bottom: 1rem; /* Adds space below the image */
 }
 
 .container {
